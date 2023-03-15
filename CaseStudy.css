@@ -3,7 +3,39 @@
 /* -----------------------
 :: 1.0 Top Header Area CSS
 ------------------------ */
+.topnav{
+    
+    background: linear-gradient(45deg, #c9dfdf,#c9dfdf);
+    opacity: 95%;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    display: flexbox;
+}
 
+.topnav a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:'Shadows Into Light Two', cursive;
+    font-size: 35px;
+}
+.topnav a.reg {
+    float: right;
+    color: black;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    margin-top: 5px;
+}
+
+
+.topnav a.active{
+    color: #272343;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    font-weight: bold;
+    font-size: calc(15px, 1vw);
+}
 
 
 
@@ -30,3 +62,59 @@
 :: 5.0 Footer Area CSS
 ------------------- */
 
+.icon {
+    
+    height: 5%;
+    width: 5%;
+    transition: transform .2s;
+    margin-right: 1%;
+
+}
+
+.FooterTitle{
+    font-size: 55px;
+    color: #272343;
+    margin: 4px;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+h4{
+    font-size: 25px;
+    color: #272343;
+    margin: 4px;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.icon:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1,5);
+    transform:scale(1.5);
+}
+.footer-container {
+   background: linear-gradient(45deg, #E3F6F5,#BAE8E8);
+   border-color: #181818   ;
+   height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ div.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+ }
+
+ .FooterList{
+    list-style-type: none;
+    border-style: solid;
+    border-color: #3f386d;
+    width: fit-content; 
+  /*To fit content or reduce border width size kasi malaki*/
+}
+
+.footer-container{  
+    bottom: 0;
+    width: 100%;
+}
