@@ -48,8 +48,48 @@
 /* --------------------
 :: 3.0 Main Content CSS 
 -------------------- */
+/*Single Post*/
+.HeaderPost{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    flex-wrap: wrap;
+    background-color: #F7F6F2;
+}
+.Author-Post{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #C7FFD8;
+    width: 100%;
+    text-align: center;
+    
+}
+h1,h2{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;  
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
 
 
+b{
+    font-size: 20px;
+}
+.Author-Post >*{
+    margin: 0;
+    padding: 0;
+}
+/*Images*/
+.FoodieImageSolo{
+    height: 50%;
+    width: 90%;
+ }
 
 /* -------------
 :: 4.0 About CSS 
