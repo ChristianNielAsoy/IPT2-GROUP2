@@ -84,35 +84,6 @@ b{
     font-size: 19px;
 }
 
-
- Marlon_Cabalu
-.AboutUsContainer{
-    background-color: #faf9f3;
-    border-style: solid;
-    border-color: #d6beed;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
-
-.AboutUsContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-style: solid;
-    border-color: #d4b9f2;
-
-}
-
-.AboutUsImage{
-    height: 200px;
-    width: 250px;
-}
-#mem{
-    font-size: small;
-}
-=======
 /* --------------------
 :: 3.0 Main Content CSS 
 -------------------- */
@@ -186,10 +157,35 @@ b{
 
  }
 
+/* --------------------
+:: 4.0 About CSS 
+-------------------- */
+.AboutUsContainer{
+    background-color: #faf9f3;
+    border-style: solid;
+    border-color: #d6beed;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
 
+.AboutUsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: #d4b9f2;
 
+}
 
-
+.AboutUsImage{
+    height: 200px;
+    width: 250px;
+}
+#mem{
+    font-size: small;
+}
 
 /* -------------------
 :: 5.0 Footer Area CSS
@@ -212,7 +208,7 @@ b{
     text-shadow: 0.0.0.20em #F2F2F2;
     font-family: 'Shadows Into Light Two', cursive;
 }
-h4{
+h4,h6{
     font-size: 25px;
     color: #272343;
     margin: 4px;
