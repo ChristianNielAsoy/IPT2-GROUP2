@@ -1,0 +1,91 @@
+/* ***** Fonts ***** */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Quicksand:300,400,500,700|Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* -----------------------
+:: 1.0 Top Header Area CSS
+------------------------ */
+
+
+
+
+/* ------------------------
+:: 2.0 Top Feature Area CSS 
+------------------------ */
+
+
+
+
+/* --------------------
+:: 3.0 Main Content CSS 
+-------------------- */
+/*Multiple Post*/
+.HeaderPostMulti{
+    display: flex;
+    background-color: #F7F6F2;
+}
+/*FONTS*/
+h2{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 30px;  
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+b{
+    font-size: 20px;
+}
+
+.Author-Post{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #C7FFD8;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.Author-Post >*{
+margin: 0;
+padding: 0;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #a1a1a1;
+    display: inline;
+    margin: 10px;
+}
+
+/*Images*/
+
+.FoodieImagesMulti{
+    height: 100%;
+    width: 100%;
+ }
+
+ .PostContainerMulti,.Author-Post{
+    margin: 5px;
+ }
+
+/* -------------
+:: 4.0 About CSS 
+------------- */
+
+
+
+
+/* -------------------
+:: 5.0 Footer Area CSS
+------------------- */
+
