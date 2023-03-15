@@ -16,7 +16,17 @@
 /* --------------------
 :: 3.0 Main Content CSS 
 -------------------- */
-
+/*Single Post*/
+.HeaderPost{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    flex-wrap: wrap;
+    background-color: #F7F6F2;
+}
 
 
 /* -------------
