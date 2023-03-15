@@ -3,7 +3,39 @@
 /* -----------------------
 :: 1.0 Top Header Area CSS
 ------------------------ */
+.topnav{
+    
+    background: linear-gradient(45deg, #c9dfdf,#c9dfdf);
+    opacity: 95%;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    display: flexbox;
+}
 
+.topnav a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:'Shadows Into Light Two', cursive;
+    font-size: 35px;
+}
+.topnav a.reg {
+    float: right;
+    color: black;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    margin-top: 5px;
+}
+
+
+.topnav a.active{
+    color: #272343;
+    text-shadow: 0.0.0.20em #F2F2F2;
+    font-weight: bold;
+    font-size: calc(15px, 1vw);
+}
 
 
 
