@@ -27,6 +27,15 @@
     flex-wrap: wrap;
     background-color: #F7F6F2;
 }
+.Author-Post{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #C7FFD8;
+    width: 100%;
+    text-align: center;
+    
+}
 
 
 /* -------------
